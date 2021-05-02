@@ -1,4 +1,4 @@
-## Who is James Prince 🤔 ? - aka [Prince Machiko Chisenga]
+## About Me
 ---
 Based in Lusaka, Zambia. I help solve online presence problems by designing and building functional and stunning websites for both individuals and small businesses.
 
