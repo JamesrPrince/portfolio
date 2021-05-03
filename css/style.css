@@ -58,6 +58,11 @@ body {
     line-height: 1.6;
 }
 
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+} */
+
 section {
     padding: 5em 2em;
 }
@@ -101,7 +106,7 @@ strong {
 h1,
 h2,
 h3 {
-    line-height: 1;
+    line-height: 1.3;
     margin: 0;
 }
 
@@ -157,8 +162,17 @@ header {
     padding: 1em;
 }
 
+.nav-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .logo img {
     border-radius: 50%;
+
 }
 
 .logo {
@@ -166,7 +180,7 @@ header {
 }
 
 .nav {
-    position: fixed;
+    position: absolute;
     background: var(--clr-dark);
     color: var(--clr-light);
     top: 0;
@@ -202,11 +216,11 @@ header {
 }
 
 .nav-toggle {
-    padding: .5em;
+    /* padding: 5em; */
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     right: 1em;
     top: 1em;
     z-index: 1000;
@@ -232,7 +246,7 @@ header {
     opacity: 0;
 }
 
-
+/* Humburger menu */
 .humburger {
     display: block;
     position: relative;
@@ -292,7 +306,7 @@ header {
 
     .intro__image {
         grid-area: img;
-        min-width: 250px;
+        min-width: 300px;
         position: relative;
         z-index: 2;
     }
@@ -407,7 +421,10 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1em;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .portfolio__item {
